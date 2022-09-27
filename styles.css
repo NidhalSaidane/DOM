@@ -1,0 +1,68 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(25, 26, 26, 0.781);
+    font-size: large;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+main {
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgb(102, 100, 100);
+}
+.Item {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid rgb(75, 73, 73);
+    margin: 20px;
+    padding: 20px;
+}
+.Item > img {
+    width: 170px;
+    height: 150px;
+}
+/* .i {
+    color: rgb(35, 35, 36);
+} */
+button {
+    border: none;
+    background-color:white;
+    outline: none;
+}
+button > img {
+    width: 25px;
+    height: 25px;
+}
+.quantity > input {
+    width:20px;
+    background-color: white;
+    border: black; 
+    font-weight: bold;
+}
+#total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: large;
+    font-weight: bold;
+}
+#total-price > input {
+    border: none;
+    background-color:white;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+footer {
+    text-align: center;
+}
